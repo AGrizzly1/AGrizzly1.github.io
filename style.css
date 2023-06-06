@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    margin: 0px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+section.content {
+    padding: 20px 20px 100px 20px;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-family: Oswald, sans-serif;
+}
+
+p, li, td {
+    font-family: Roboto, sans-serif;
+}
+
+code {
+    font-size: 16px;
+}
+
+nav {
+    width: 100%;
+    background-color: darkslategrey;
+    padding: 15px 0px;
+}
+
+nav > div {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+a {
+    color: black;
+}
+
+section > ul {
+    padding-bottom: 50px;
+}
+
+nav > div > a {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+nav > div > a:first-child {
+    font-size: 30px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+nav > div > a:last-child {
+    margin-right: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th.small {
+    width: 0px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+.last-games {
+    display: flex;
+}
+
+.game-info {
+    padding: 0px 40px;
+    margin: 0px 20px 20px 0px;
+    border: solid 2px lightgrey;
+    flex: 1;
+}
+
+.game-info:last-child {
+    margin: 0px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .last-games {
+        display: block;
+    }
+    .game-info {
+        margin: 20px 0px 20px 0px;
+    }
+}

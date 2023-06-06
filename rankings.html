@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Collapsing Craters</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <div class="content">
+                <a href="index.html">Collapsing Craters</a>
+                <a href="index.html">Home</a>
+                <a href="rankings.html">Rankings</a>
+                <a href="about.html">About</a>
+                <a href="changelog.html">Changelog</a>
+            </div>
+        </nav>
+        <section class="content">
+            <h1>Current Stats</h1>
+            <p><span id="numGames"></span> played in total with <span id="curLeader"></span> in first.</p>
+            <table>
+                <tr>
+                    <th class="small">Position</th>
+                    <th>Player</th>
+                    <th>Points</th>
+                    <th>Wins</th>
+                    <th>Average Placing In Game</th>
+                </tr>
+                <tr>
+                    <td id="firstPosition">0</td>
+                    <td id="firstName">Null</td>
+                    <td id="firstPoints">0</td>
+                    <td id="firstWins">0</td>
+                    <td id="firstAvg">0</td>
+                </tr>
+                <tr>
+                    <td id="secondPosition">0</td>
+                    <td id="secondName">Null</td>
+                    <td id="secondPoints">0</td>
+                    <td id="secondWins">0</td>
+                    <td id="secondAvg">0</td>
+                </tr>
+                <tr>
+                    <td id="thirdPosition">0</td>
+                    <td id="thirdName">Null</td>
+                    <td id="thirdPoints">0</td>
+                    <td id="thirdWins">0</td>
+                    <td id="thirdAvg">0</td>
+                </tr>
+                <tr>
+                    <td id="fourthPosition">0</td>
+                    <td id="fourthName">Null</td>
+                    <td id="fourthPoints">0</td>
+                    <td id="fourthWins">0</td>
+                    <td id="fourthAvg">0</td>
+                </tr>
+            </table>
+            <h1 id="last-three-games-text">Last Three Games</h1>
+            <div class="last-games" id="lastGames"></div>
+        </section>
+    </body>
+</html>
