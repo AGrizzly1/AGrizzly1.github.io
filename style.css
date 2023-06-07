@@ -42,8 +42,8 @@ a {
     color: black;
 }
 
-section > ul {
-    padding-bottom: 50px;
+.changelog > section > ul {
+    padding-bottom: 25px;
 }
 
 nav > div > a {
