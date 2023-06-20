@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, th {
     font-family: Oswald, sans-serif;
 }
 
-p, li, td {
+p, li, td, i, b {
     font-family: Roboto, sans-serif;
 }
 
